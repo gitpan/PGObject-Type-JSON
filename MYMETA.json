@@ -22,7 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "Test::More" : "0"
          }
       },
       "configure" : {
@@ -32,10 +32,11 @@
       },
       "runtime" : {
          "requires" : {
-            "Test::More" : "0"
+            "JSON" : "0",
+            "PGObject" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "1.00"
+   "version" : "1.01"
 }
