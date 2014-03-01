@@ -3,6 +3,7 @@ abstract: 'JSON wrappers for PGObject'
 author:
   - 'Chris Travers <chris.travers@gmail.com>'
 build_requires:
+  Carp::Always: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
@@ -20,4 +21,4 @@ no_index:
 requires:
   JSON: 0
   PGObject: 0
-version: 1.01
+version: v1.01.01
