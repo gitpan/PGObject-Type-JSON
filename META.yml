@@ -21,4 +21,4 @@ no_index:
 requires:
   JSON: 0
   PGObject: 0
-version: v1.01.01
+version: v1.010.01
